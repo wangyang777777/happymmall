@@ -2,7 +2,7 @@
 * @Author: wangyang
 * @Date:   2017-07-17 15:52:54
 * @Last Modified by:   wangyang
-* @Last Modified time: 2017-07-18 13:16:09
+* @Last Modified time: 2017-07-18 23:38:08
 */
 var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -44,10 +44,11 @@ var config = {
   	},
   	resolve : {
   		alias : {
-  			util 	: __dirname + '/src/util',
-  			page 	: __dirname + '/src/page',
-  			service : __dirname + '/src/service',
-  			image   : __dirname + '/src/image'
+        node_modules  : __dirname + '/node_modules',
+  			util 	        : __dirname + '/src/util',
+  			page 	        : __dirname + '/src/page',
+  			service       : __dirname + '/src/service',
+  			image         : __dirname + '/src/image'
   		}
   	},
     plugins : [
