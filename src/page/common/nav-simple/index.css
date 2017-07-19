@@ -1,0 +1,19 @@
+/*
+* @Author: wangyang
+* @Date:   2017-07-19 10:18:37
+* @Last Modified by:   wangyang
+* @Last Modified time: 2017-07-19 11:23:58
+*/
+
+
+.nav-simple{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+.nav-simple .logo{
+	font-size: 26px;
+	font-weight: bold;
+	color: #c60023;
+}

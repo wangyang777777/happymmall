@@ -2,16 +2,19 @@
 * @Author: wangyang
 * @Date:   2017-07-18 22:23:32
 * @Last Modified by:   wangyang
-* @Last Modified time: 2017-07-18 23:03:02
+* @Last Modified time: 2017-07-19 13:32:32
 */
-// css reset
+
+/*css reset*/
+
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
-	background: #f6f6f6;
+	background: #ddd;
 	font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;
+
 }
 li{
 	list-style: none;
@@ -27,7 +30,7 @@ input[type='checkbox']{
 	cursor: pointer;
 }
 
-// 定宽布局
+/*定宽布局*/
 .w{
 	width: 1080px;
 	margin: 0 auto;
@@ -84,4 +87,5 @@ input[type='checkbox']{
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	opacity: .7;
+	margin: 10px auto;
 }
