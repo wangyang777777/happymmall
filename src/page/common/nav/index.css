@@ -1,29 +1,29 @@
 /*
-* @Author: wangyang
-* @Date:   2017-07-19 13:21:13
-* @Last Modified by:   wangyang
-* @Last Modified time: 2017-07-19 13:28:40
+* @Author: Rosen
+* @Date:   2017-05-17 14:16:54
+* @Last Modified by:   Rosen
+* @Last Modified time: 2017-05-17 16:31:15
 */
 .nav{
-	background: #eee;
-	height: 30px;
-	line-height: 30px;
+    background: #eee;
+    height: 30px;
+    line-height: 30px;   
 }
-/*用户部分*/
+/* 用户部分 */
 .nav .user{
-	float: left;
+    float: left;
 }
 .nav .user.login{
-	display: none;
+    display: none;
 }
 .nav .user .link{
-	margin-right: 5px;
+    margin-right: 5px;
 }
-/*导航链接部分*/
+/* 导航链接部分 */
 .nav .nav-list{
-	float: right;
+    float: right;
 }
 .nav .nav-list .nav-item{
-	display: inline-block;
-	margin-left: 5px;
+    display: inline-block;
+    margin-left: 5px;
 }

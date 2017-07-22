@@ -1,11 +1,11 @@
 /*
-* @Author: wangyang
-* @Date:   2017-07-17 17:23:12
-* @Last Modified by:   wangyang
-* @Last Modified time: 2017-07-17 17:24:00
+* @Author: Rosen
+* @Date:   2017-05-09 16:47:03
+* @Last Modified by:   Rosen
+* @Last Modified time: 2017-05-09 16:47:14
 */
 
 'use strict';
 module.exports = {
-	test : 1234
+    test: 1234
 }
